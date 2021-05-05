@@ -1,0 +1,203 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.body-home{
+    background-image: url('images/bckg-landsc(1).jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home-logo-img-text {
+    width: 45%;
+    display: block;
+    margin: auto;
+}
+
+#home-logo-img{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.home-menu-item{
+    text-decoration: none;
+    /* MAKES ALL ITEMS UPPERCASE */
+    text-transform: uppercase;
+
+    color: white;
+    font-size: 75%;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid rgb(85, 85, 85);
+
+    /* GIVES TAG A PROPER BOARDER */
+    /* ALLOWS STYLE TO WORK WELL WITH TAG */
+    display: block;
+
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+
+.header i{
+    float: left;
+    padding: 7% 0% 0% 10%;
+    color: white;
+}
+.header img{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding-top: 14px;
+    padding-right: 11px;
+}
+
+.body-meals{
+    background-image: url('images/bckg-landsc.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meals-list-item {
+    text-decoration: none;
+    color: white;
+}
+
+.body-recipes{
+    background-image: url('images/bckgrnd.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: cornsilk;
+    padding-bottom: 150px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.recipe-details img{
+    width: 70%;
+    padding-left: 15%;
+}
+
+.recipe-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.recipe-details h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.recipe-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.recipe-details-info p{
+    font-size: 13px;
+    display: inline-block;
+}
+
+.recipe-details-ingredients label{
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.recipe-details-steps{
+    padding-top: 20px;
+}
+
+#txtbx01{
+    margin-top: 15px;
+    width: 80%;
+    height: 80px;
+    margin-left: 5%;
+}
+
+#buynow{
+    margin-top: 25px;
+    margin-left: 20%;
+    width: 60%;
+    font-size: large;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+.thanks{
+    text-decoration: none;
+    color: white;
+    font-size: 90%;
+    text-align: center;
+    border: 5px solid rgb(85, 85, 85);
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+#thank-img{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 18px;
+}
+
+.thank-page{
+    padding-bottom: 10%;
+}
+
+/* @media only screen and (min-width: 1000px) {
+    
+}
+
+@media only screen and (min-width: 1500px) {
+    
+} */
+
+ @media only screen and (max-width: 720px) {
+    .body-home{
+        background-image: url('images/bckg-port\(1\).jpg');
+    }
+
+    .body-recipes{
+        background-image: url('images/bckgrnd.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: cornsilk;
+    padding-bottom: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+
+    .body-meals{
+        background-image: url('images/bckg-port.jpg');
+    }
+    
+    #home-logo-img{
+        width: 30%;
+        display: block;
+        margin: auto;
+    }
+}
